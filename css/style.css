@@ -1,0 +1,51 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.badge-campus { background-color: #e1f5fe; color: #0288d1; font-weight: 600; font-size: 0.75rem; }
+.badge-academic { background-color: #e8f5e9; color: #388e3c; font-weight: 600; font-size: 0.75rem; }
+.badge-clubs { background-color: #fff3e0; color: #f57c00; font-weight: 600; font-size: 0.75rem; }
+.badge-sports { background-color: #f3e5f5; color: #7b1fa2; font-weight: 600; font-size: 0.75rem; }
+
+.text-custom-muted {
+    color: #6c757d;
+    font-size: 0.85rem;
+}
+
+.read-story-link {
+    color: #198754;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.read-story-link:hover {
+    text-decoration: underline;
+}
+
+.page-item.active .page-link {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.page-link {
+    color: #198754;
+}
